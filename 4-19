@@ -1,0 +1,18 @@
+cross bridge
+10, 5 , 2, 1
+make the slowest go together, fastest go back and forth, and the fastest run first
+max(1,2)=2
+1 go back
+max(5,10) = 10
+2 go back
+max (2,1) = 2
+2+1+10+2+1=17
+
+weighting 9 boxes
+9 boxes, same size, 8 same weight, one other is heavier. How to find it?
+weigh four against four, same weight the one left is the one. If not seperate the heavier ones in half and compare. Do the same thing for the less pair as well
+In this case, 3 is the max value of turns to find the heaviest one
+
+Complexity = cost (the worst case possible)
+cost: Time, Resourse, CPU, Disk, Network, Power
+sorting algorithm: (n^2-n)/2
