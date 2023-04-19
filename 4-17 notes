@@ -1,0 +1,9 @@
+j++ == i + 1
+same as j == i + 1; j++
+
+Inheritance:
+protected can be used for assigning variables from the base class to the child class
+Interface:
+create funtions but does not need to assign
+use implement to use it in another class
+all fuctions in the interface class has to be implemented in the class assigns it
