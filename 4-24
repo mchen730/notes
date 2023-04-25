@@ -1,0 +1,16 @@
+class vs object vs instance vs reference
+object = instance (iPhone = new MobliePhone ( "apple", false, 1, "AT&T"))
+iPhone is a reference (address)
+MobliePhone is the object itself
+System.out.println(iPhone) (print is using the address to access the object)
+java always pass by "VALUE"
+the value of a variable is the address
+The value of a primitive type is its vaule
+Have to have a toString function to print variable
+The value of an address type is its reference ("memory address")
+
+complexity (worse case scenario)
+Big O notation
+O(1), O(n), O(lgn), O(nlgn) those are presenting the worse scenario. "o" read as "order of"
+speed of increase as n grows
+array -> linked list ( 12 -> 13 -> 9 -> 10) infinite space between them
