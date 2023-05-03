@@ -1,0 +1,47 @@
+linked list
+Each element is called "node"
+value + reference = node
+The first element in linked list is called "head"
+The last one points to "null"
+never use head.next
+create another pointer ex: secondPointer
+use the secondPointer and secondPointer.next to access the next value
+
+add a new node at the ednd of the list
+1. go to the end of the linked list
+Node node = head;
+while (node.next != null){
+  node = node.next;
+}
+2. add anew node
+node.next = new Node (4);
+printList (head);
+
+delete the node with value 2
+1. traverse the list until the next node has value 2
+while (node.next.value != 2){
+  node node.next;
+}
+
+2. delete the next node
+node.next = node.next.next;
+printList(head);
+
+reverse this linked list
+
+print the list in reverse order?
+1 pass
+Stack<Node> stack = new Stack<>(); // first in, last out
+//Stack<String>, Stack<Integer>, etc
+traverse the linked list, and push every node onto the stack
+node = head;
+while ( node != null){
+staack.push(node);
+node = node.next;
+}
+pop everthing from the stack until it's empty
+while (!stack.isEmpty()){
+  Node node = stack.pop();
+  System.out.;rintln(node.value);
+}
+
