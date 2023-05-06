@@ -1,0 +1,67 @@
+public interface Stack<T>{
+void push(T val);
+T pop();
+boolean isEmpty();
+}
+
+
+
+
+
+public class LinkedStack<T> implements Stack<T>{
+
+int size;
+
+public LinkedStack(){
+head = new Node<>(); //create a dummy node
+}
+
+public void push (T val){
+//0(1) cmplexity
+//if the linkedlist is empty
+size++;
+
+//is not empty
+
+Node<T> newNode = new Node<>(val);
+newNode.next = head;
+head = newNode;
+}
+
+
+public T pop(){
+
+//0(1) cmplexity
+//if the stack is empty
+size--;
+
+// it's not empty
+
+T ret = head.next.val;
+head = head.next.next;
+return ret;
+}
+public boolean isEmpty(){
+//0(1) cmplexity
+size = 0;
+return false;
+}
+
+
+
+
+
+public class main{
+public sstataic void main(String [] args){
+for (int i = 0; i < 4; i++){
+myStack.push(i);
+}
+
+while (!myStack.isEmpty(){
+Integer val = myStack.pop();
+System.out.println
+for (int i = 0; i < 4; i++){
+Integer val = myStack.pop();
+
+}
+
