@@ -1,0 +1,8 @@
+Abstraact Data Type (ADT)
+a function that calls itself
+
+void callMeMaybe(){
+  printf("Hello Maybe");
+  callMeMaybe();
+}
+ 
